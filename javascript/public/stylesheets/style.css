@@ -1,5 +1,12 @@
 body {
   font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+}
+
+#dw {
+  text-align: center;
+  margin: auto;
 }
 
 form {
