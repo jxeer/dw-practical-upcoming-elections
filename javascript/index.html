@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Democracy Works Project</title>
-    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Local Election Finder</h1>
     <div id="dw">
+      <br><br><br>
+      <h1 id="title">Local Election Finder</h1>
+      <br><br><br>
+      <p id="openingText">The below app is designed to tell you what local elections are happening in your region. Input your address to begin.</p>
+      <br><br><br>
         <form>   
             <h2>What is your address?</h2>
             <input type="text">
-            <button type="submit" id="submit">Submit form</button>
+            <button type="submit" id="submit">Submit Address</button>
 
             <p id="result">
-                    Update this text.
+                    Local Election Data.
             </p>
         </form>
     </div>
-	<script src="routes/index.js"></script>
-    <script src="./node_modules/axios/dist/axios.min.js"></script>
+	<script src="index.js"></script>
+    <!-- <script src="./node_modules/axios/dist/axios.min.js"></script> -->
 
   </body>
 </html>

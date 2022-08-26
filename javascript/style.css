@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+  margin: auto;
+  background: url(rwb-bg.png);
+  background-size: cover;
+}
+
+#title {
+  text-align: center;
+  display: flexbox;
+  margin: auto;
+  justify-content: center;
+}
+
+#dw {
+  text-align: center;
+  margin: auto;
+  height: 1400px;
+  width: 50%;
+  background-color: white;
+  justify-content: center;
+  display: flexbox;
+  margin-top: 60px;
+  padding-top: 40px;
+}
+
+#openingText {
+  font-size: large;
+}
+
+
+form {
+  margin: auto;
+  justify-content: center;
+  width: 600px;
+  height: 1200px;
+  padding: 1em;
+  /* border: 1px solid #CCC; */
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  margin-right: .3em;
+  margin-left: 1em;
+}
+
+label:first-of-type {
+  width: 90px;
+  margin-left: 0;
+}
+
+input {
+  font: 1em sans-serif;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+}
